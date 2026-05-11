@@ -1,7 +1,7 @@
 //synchronous code runs first
 //After synchronous code finishes, microtasks run immediately.
 //✅ Promises always run BEFORE timers
-
+//Added this comment to check edit allow?
 const fs = require("fs");
 
 console.log("1. Start");
