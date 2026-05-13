@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
 
   console.log("request received");
 });
-server.listen(3000, () => {
+server.listen(2000, () => {
   console.log("Server running");
 });
 

@@ -5,6 +5,4 @@ const server = http.createServer((req, res) => {
   console.log("request received");
 });
 
-server.listen(2000, () => {
-  console.log("Server running");
-});
+server.listen(2000, () => console.log("Server running"));

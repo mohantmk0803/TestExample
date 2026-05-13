@@ -10,6 +10,4 @@ const server = http.createServer((req, res) => {
   console.log(res.statusCode); //helps to check the response status code.
   console.log("request received");
 });
-server.listen(3000, () => {
-  console.log("Server running");
-});
+server.listen(3000, () => console.log("Server running"));
