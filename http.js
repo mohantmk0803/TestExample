@@ -3,6 +3,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   console.log("request received");
+  console.log(req.httpVersion);
 });
 
 server.listen(2000, () => console.log("Server running"));
